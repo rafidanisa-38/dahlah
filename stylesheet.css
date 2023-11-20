@@ -1197,6 +1197,10 @@ body {
 		margin-top: 665%;
 	}
 
+	.footer {
+		margin-top: 712%;
+	}
+}
 
 @media (max-width: 496px) {
 	.wwd .card {
@@ -1219,6 +1223,7 @@ body {
 		right: 6%;
 		margin-top: .5%;
 		font-size: 18vw;
+		font-weight: 100;
 	}
 
 
@@ -1517,6 +1522,58 @@ body {
 		width: 16%;
 		margin-left: 75%;
 		margin-top: 2%;
+	}
+
+	.footer {
+		margin-top: 860%;
+		height: 88vw;
+	}
+
+	.footer .footer-bg {
+		height: 88vw;
+	}
+
+	.footer .footer-logo {
+		width: 20%;
+	}
+
+	.footer .address, .footer .followus, .footer .contactus {
+		width: 76%;
+		margin-left: 12%;
+	}
+
+	.footer .address {
+		margin-top: 23%;
+	}
+
+	.footer .followus {
+		margin-top: 45%;
+	}
+
+	.footer .contactus {
+		margin-top: 65%;
+	}
+
+	.footer .address .address-title,
+	.footer .followus .followus-title,
+	.footer .contactus .contactus-title {
+		font-size: 4vw;
+	}
+
+	.footer .followus .followus-title,
+	.footer .contactus .contactus-title {
+		margin-bottom: -2%;
+	}
+
+	.footer .address .address-content,
+	.footer .followus .followus-content,
+	.footer .contactus .contactus-content {
+		font-size: 3vw;
+	}
+
+	.footer .footer-decoration {
+		width: 30%;
+		margin-left: 67%;
 	}
 }
 
