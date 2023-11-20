@@ -638,7 +638,6 @@ body {
 	position: absolute;
 	margin-top: 196%;
 	height: 39vw;
-	background-color: red;
 }
 
 .quote .quote-bg {
@@ -835,6 +834,14 @@ body {
 }
 
 .clients .clients-img img {
+	overflow: hidden;
+	filter: grayscale(100%);
+	transition: .5s ease;
+	cursor: pointer;
+}
+
+.clients .clients-img img:hover {
+	filter: grayscale(0);
 }
 
 .clients .clients-img-1 {
