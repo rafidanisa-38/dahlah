@@ -89,7 +89,7 @@
 }
 
 body {
-	background-color: #f9f9f9;
+	background-color: white;
 }
 
 .container {
@@ -152,7 +152,7 @@ body {
 	font-size: 5vw;
 	transform: rotate(45deg);
 	cursor: pointer;
-	color: #f9f9f9;
+	color: white;
 }
 
 .box .min:hover {
@@ -178,7 +178,7 @@ body {
 }
 
 .menu .li a {
-	color: #f9f9f9;
+	color: white;
 	font-size: 4vw;
 	display: inline-block;
 	position: relative;
@@ -208,7 +208,7 @@ body {
 
 .menu .contact {
 	float: right;
-	margin-right: 9%;
+	margin-right: 9.4%;
 }
 
 .menu .service {
@@ -227,7 +227,7 @@ body {
 }
 
 .submenu li a {
-	color: #f9f9f9;
+	color: white;
 	font-size: 1.2vw;
 	font-family: BricolageGrotesque-ExtraLight;
 	text-decoration: underline 0.05em rgba(249, 249, 249, 0);
@@ -248,7 +248,7 @@ body {
 }
 
 .submenu .ig {
-	margin-right: -3%;
+	margin-right: -3.7%;
 }
 
 .submenu .wa {
@@ -257,7 +257,7 @@ body {
 
 .submenu .iconcontact i {
 	font-size: 1.4vw;
-	color: #f9f9f9;
+	color: white;
 }
 
 .submenu .iconcontact i:hover {
@@ -318,7 +318,7 @@ body {
 
 .content {
 	width: 100%;
-	background-color: #f9f9f9;
+	background-color: white;
 	height: 24vw;
 	position: absolute;
 	padding-top: 4%;
@@ -404,7 +404,7 @@ body {
 	width: 100%;
 	height: 74vw;
 	margin-top: 24%;
-	background-color: #f9f9f9;
+	background-color: white;
 }
 
 .wwd .wwd-title {
@@ -461,7 +461,7 @@ body {
 	font-weight: bold;
 	width: 59%;
 	margin-left: 10%;
-	color: #f9f9f9;
+	color: white;
 	visibility: hidden;
 	transition: .1s;
 }
@@ -488,7 +488,7 @@ body {
 	width: 100%;
 	font-family: BricolageGrotesque-Regular;
 	height: 98vw;
-	background-color: #f9f9f9;
+	background-color: white;
 }
 
 .sw .sw-text {
@@ -688,7 +688,7 @@ body {
 .quote .quote-title {
 	font-size: 3vw;
 	font-family: BricolageGrotesque-Light;
-	color: #f9f9f9;
+	color: white;
   	position: relative;
   	margin-left: 12%;
   	margin-top: 17%;
@@ -710,7 +710,7 @@ body {
 .quote .quote-btn-square {
 	width: 100%;
 	height: 105%;
-	border: 1px solid #f9f9f9;
+	border: 1px solid white;
 	border-radius: 4vw;
 	position: absolute;
 }
@@ -720,7 +720,7 @@ body {
 	padding-bottom: 2.5%;
 	margin-left: 11%;
 	font-family: Lato-Reg;
-	color: #f9f9f9;
+	color: white;
 	font-size: 1.8vw;
 }
 
@@ -738,7 +738,7 @@ body {
 .quotes {
     font-size: 3.5vw;
     font-weight: bold;
-    color: #f9f9f9;
+    color: white;
     font-family: BricolageGrotesque-ExtraLight;
     border: 1px solid white;
     width: 100%;
@@ -1042,7 +1042,7 @@ body {
 
 @media (max-width: 980px) {
 	.sec {
-		background: #f9f9f9;
+		background: white;
 		padding-left: 10%;
 		padding-right: 10%;
 	}
@@ -1054,7 +1054,8 @@ body {
 
 @media (max-width: 900px) {
 	.wwd {
-		height: 146vw;
+		height: 151vw;
+		padding-top: 7%;
 	}
 
 	.wwd .wwd-content {
@@ -1099,7 +1100,7 @@ body {
 
 
 	.sw {
-		margin-top: 160%;
+		margin-top: 175%;
 		height: 470vw;
 	}
 
@@ -1138,7 +1139,7 @@ body {
 	.sw .sw-decoration-1 {
 		width: 25%;
 		margin-left: 75.3%;
-		margin-top: 5%;
+		margin-top: 7.5%;
 		animation: bouncee 1.3s ease-in-out infinite;
 	}
 
@@ -1193,7 +1194,7 @@ body {
 	}
 
 	.quote {
-		margin-top: 625%;
+		margin-top: 639%;
 	}
 
 	.quote .quote-decoration-4 {
@@ -1201,11 +1202,11 @@ body {
 	}
 
 	.clients {
-		margin-top: 665%;
+		margin-top: 679%;
 	}
 
 	.footer {
-		margin-top: 712%;
+		margin-top: 727%;
 	}
 }
 
@@ -1383,7 +1384,7 @@ body {
 	}
 
 	.sw {
-		margin-top: 225%;
+		margin-top: 229.5%;
 	}
 }
 
@@ -1394,7 +1395,7 @@ body {
 
 	.clients {
 		margin-top: 734%;
-		height: 130vw;
+		height: 133vw;
 	}
 
 	.clients .clients-decoration-1 {
@@ -1542,7 +1543,7 @@ body {
 	}
 
 	.footer {
-		margin-top: 863%;
+		margin-top: 866.7%;
 		height: 88vw;
 	}
 
