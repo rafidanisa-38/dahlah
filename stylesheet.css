@@ -121,7 +121,7 @@ body {
 	z-index: 1;
 	top: -500px;
 	pointer-events: none;
-	transition: all .5s ease-in;
+	transition: all .7s ease-out;
 
 }
 
@@ -195,11 +195,6 @@ body {
 .menu .aboutus {
 	margin-left: -2%;
 	margin-right: 2%;
-}
-
-#check:checked ~ .container {
-	display: block;
-	z-index: 999;
 }
 
 .menu .home, .menu .service, .submenu {
@@ -675,6 +670,7 @@ body {
 	margin-left: 22%;
 	margin-top: 6%;
 	transition: .9s all ease;
+	visibility: visible;
 }
 
 .quote .quote-decoration-5 {
@@ -726,9 +722,8 @@ body {
 
 .containerr {
     width: 70%;
-    position: relative;
+    position: absolute;
     text-align: center;
-  	border: 1px solid red;
   	margin-left: 13%;
   	margin-top: 3.5%;
   	height: 31%;
@@ -740,7 +735,6 @@ body {
     font-weight: bold;
     color: white;
     font-family: BricolageGrotesque-ExtraLight;
-    border: 1px solid white;
     width: 100%;
 
     position: absolute;
@@ -1197,10 +1191,6 @@ body {
 		margin-top: 639%;
 	}
 
-	.quote .quote-decoration-4 {
-		margin-top: -9%;
-	}
-
 	.clients {
 		margin-top: 679%;
 	}
@@ -1473,7 +1463,6 @@ body {
 	.quote {
 		width: 100%;
 		height: 45vw;
-		background: red;
 	}
 
 	.quote .quote-bg {
@@ -1484,7 +1473,7 @@ body {
 	.quote .quote-title {
 		font-size: 6.5vw;
 	  	margin-left: 11%;
-	  	margin-top: 14%;
+	  	margin-top: 15%;
 	}
 
 	.quote .quote-bold {
@@ -1504,26 +1493,34 @@ body {
 
 	.quote .quote-decoration-1 {
 		width: 15%;
-		display: block;
 		margin-left: 1%;
-		margin-top: 6%;
+		margin-top: 8%;
+		display: block;
 	}
 
 	.quote .quote-decoration-2 {
 		margin-left: 50%;
-		margin-top: 2%;
+		margin-top: 5%;
 	}
 
 	.quote .quote-decoration-3 {
 		width: 13%;
-		margin-left: 83%;
-		margin-top: 36%;
+		margin-left: 84%;
+		margin-top: 8%;
+	}
+
+	.quote .quote-decoration-4 {
+		width: 13%;
+		margin-left: 19%;
+		margin-top: 3%;
+		transition: 0s;
 	}
 
 	.quote .quote-decoration-5 {
 		width: 16%;
-		margin-left: 75%;
+		margin-left: 70%;
 		margin-top: 2%;
+		transition: 0s;
 	}
 
 	.containerr {
@@ -1534,12 +1531,8 @@ body {
 	  	height: 31%;
 	}
 
-	#check:checked ~ .quote .quote-decoration-4 {
-		display: none;
-	}
-
 	.quotes {
-		font-size: 4vw;
+		font-size: 5vw;
 	}
 
 	.footer {
