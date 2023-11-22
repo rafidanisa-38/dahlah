@@ -69,6 +69,8 @@ getNewQuote();
 
 const mediaQuery1 = window.matchMedia('(min-width: 900px)')
 const mediaQuery2 = window.matchMedia('(max-width: 900px)')
+const mediaQuery3 = window.matchMedia('(max-width: 770px)')
+
 const check = document.getElementById('check');
 
 const qtitle = document.getElementById('quoteTitle');
@@ -79,7 +81,7 @@ const qdecor3 = document.querySelector('.quote-decoration-3');
 const qdecor4 = document.querySelector('.quote-decoration-4');
 const qdecor5 = document.querySelector('.quote-decoration-5');
 
-function test1(e) {
+function decor1(e) {
 	if(e.matches) {
 		check.addEventListener('click', () => {
 			check.style.display = 'none';
@@ -105,7 +107,21 @@ function test1(e) {
 	}
 }
 
-function test2(e) {
+function decor2(e) {
+	if(e.matches) {
+		check.addEventListener('click', () => {
+			check.style.display = 'none';
+
+			qtitle.style.display = 'none';
+			qbtn.style.display = 'none';
+
+			qdecor4.style.marginTop = "27.4%";
+			qdecor5.style.marginTop = "26.3%";
+		})
+	}
+}
+
+function decor3(e) {
 	if(e.matches) {
 		check.addEventListener('click', () => {
 			check.style.display = 'none';
@@ -119,7 +135,9 @@ function test2(e) {
 	}
 }
 
-mediaQuery1.addListener(test1)
-test1(mediaQuery1)
-mediaQuery2.addListener(test2)
-test2(mediaQuery2)
+mediaQuery1.addListener(decor1)
+decor1(mediaQuery1)
+mediaQuery2.addListener(decor2)
+decor2(mediaQuery2)
+mediaQuery3.addListener(decor3)
+decor3(mediaQuery3)
